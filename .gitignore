@@ -1,0 +1,6 @@
+__pycache__/
+.env
+models/
+*.pt
+*.bin
+*.safetensors
