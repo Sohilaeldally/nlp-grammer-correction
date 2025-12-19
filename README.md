@@ -11,10 +11,6 @@ Includes training on a custom dataset, evaluation, and a **Streamlit web app** f
 <img width="1920" height="1080" alt="Screenshot (5809)" src="https://github.com/user-attachments/assets/e9c931fb-4cb6-4e56-9d09-11d366d569ac" />
 
 
-English Grammar Correction Project
-
-A deep learning-based project to automatically correct English grammar in sentences using a T5 transformer model. This project includes training, evaluation, and a simple Streamlit web app for real-time grammar correction.
-
 📂 Project Structure
 project-root/
 │
@@ -40,14 +36,12 @@ project-root/
 ## ⚙️ Installation
 
 1. Clone this repository:
-
-```bash
+   ```bash
 git clone <your-repo-url>
 cd project-root
-
-2. Install required packages:
-
-```bash pip install -r requirements.txt
+3. Install required packages:
+   ```bash
+pip install -r requirements.txt
 
 
 Requirements include: torch, transformers, pandas, matplotlib, seaborn, evaluate, Levenshtein, tqdm, streamlit
