@@ -1,5 +1,4 @@
 # English Grammar Correction 📝
-<img width="1920" height="1080" alt="Screenshot (5809)" src="https://github.com/user-attachments/assets/e9c931fb-4cb6-4e56-9d09-11d366d569ac" />
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red)
@@ -8,6 +7,8 @@
 
 A deep learning project to **automatically correct English grammar** using a **T5 transformer model**.  
 Includes training on a custom dataset, evaluation, and a **Streamlit web app** for real-time grammar correction.
+
+<img width="1920" height="1080" alt="Screenshot (5809)" src="https://github.com/user-attachments/assets/e9c931fb-4cb6-4e56-9d09-11d366d569ac" />
 
 ---
 
@@ -33,7 +34,6 @@ project-root/
 │
 ├── requirements.txt # Required Python packages
 └── README.md
-
 
 ---
 
