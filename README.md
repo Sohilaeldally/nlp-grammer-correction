@@ -19,7 +19,7 @@ Includes training on a custom dataset, evaluation, and a **Streamlit web app** f
 project-root/
 │
 ├── data/
-│   └── Grammer Correction.csv
+│   └── Grammar Correction.csv
 │
 ├── models/
 │   └── best_model/
