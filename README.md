@@ -109,6 +109,8 @@ Prediction: I have a pen.
 
 ✅ This shows how the base model performs **before fine-tuning** on your dataset. 
 
+### 🚀 Training
+
 To train the model, run:
 ```bash
 python src/train.py
