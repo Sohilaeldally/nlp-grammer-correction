@@ -73,7 +73,7 @@ Preprocessing and tokenization for T5 are handled in `dataset.py.`
 
 You can try the pre-trained **T5 grammar correction model** before fine-tuning it on your dataset.
 
-```python
+```bash
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import torch
 
@@ -98,7 +98,7 @@ for src, pred in zip(sentences, preds):
     print(f"Input: {src}")
     print(f"Prediction: {pred}")```
 
-```python
+```bash
 Input: Him and me was going to the market yesterday.
 Prediction:  Him and me were going to the market yesterday.```
 
