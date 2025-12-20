@@ -41,12 +41,12 @@ project-root/
 ```
 ## ⚙️ Installation
 
-### 1. Clone the repository
+#### 1. Clone the repository
 ```bash
 git clone <your-repo-url>
 cd project-root
 ```
-### 2. Install dependencies
+#### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -85,3 +85,13 @@ models/best_model/
 ```
 ### Evaluation metrics
 `ROUGE-1`, `ROUGE-2`, `ROUGE-L`, `Normalized Edit Distance (Levenshtein)`
+
+## 🌐 Streamlit Web App
+Run the interactive Streamlit application using:
+```bash
+streamlit run src/app.py
+```
+#### How it works
+1. Enter a sentence with grammatical errors
+2. Click **Correct**
+3. The corrected sentence is displayed instantly
