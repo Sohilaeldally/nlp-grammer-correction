@@ -108,10 +108,10 @@ streamlit run src/app.py
 
 ### Validation Metrics 
 
-**ROUGE-1**: 0.9508
-**ROUGE-2**: 0.8957
-**ROUGE-L**: 0.9422
-**Normalized Edit Distance**: 0.0611
+- **ROUGE-1**: 0.9508
+- **ROUGE-2**: 0.8957
+- **ROUGE-L**: 0.9422
+- **Normalized Edit Distance**: 0.0611
 ## 🔧 Notes
 
 - The model supports **CPU** and **GPU**
