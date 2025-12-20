@@ -112,3 +112,30 @@ streamlit run src/app.py
 **ROUGE-2**: 0.8957
 **ROUGE-L**: 0.9422
 **Normalized Edit Distance**: 0.0611
+## 🔧 Notes
+
+- The model supports **CPU** and **GPU**
+
+- For faster training, use Google Colab:
+
+'''text
+notebooks/colab_run.ipynb
+'''
+
+- Data exploration is available in:
+
+'''text
+notebooks/data_exploration.ipynb
+'''
+
+- You can adjust 'max_length' and 'batch_size' in 'train.py' depending on available GPU memory
+
+## ⭐ Future Improvements
+
+- Fine-tune on a **larger dataset**
+
+- Add **multi-lingual grammar correction**
+
+- Enhance Streamlit UI with **batch sentence correction**
+
+- Deploy the app online (e.g., **Hugging Face Spaces** or **Render**)
