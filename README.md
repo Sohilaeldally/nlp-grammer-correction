@@ -109,7 +109,7 @@ Prediction: I have a pen.
 
 ✅ This shows how the base model performs **before fine-tuning** on your dataset. 
 
-### 🚀 Training
+## 🚀 Training
 
 To train the model, run:
 ```bash
@@ -143,7 +143,12 @@ streamlit run src/app.py
 2. Click **Correct**
 3. The corrected sentence is displayed instantly
 
-## 📊 Results
+📊 Notebooks
+
+- **notebooks/data_exploration.ipynb** → Explore dataset, visualize distributions, check data quality
+- **notebooks/colab_run.ipynb** → Google Colab notebook for loading the project from Google Drive and running training using GPU
+
+## ✨ Results
 ### Sample Prediction
 
 | Input Sentence                               | Corrected Sentence                          |
