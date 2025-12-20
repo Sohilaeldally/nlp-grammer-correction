@@ -132,6 +132,11 @@ models/best_model/
 ### Evaluation metrics
 `ROUGE-1`, `ROUGE-2`, `ROUGE-L`, `Normalized Edit Distance (Levenshtein)`
 
+## 📊 Notebooks
+
+- **notebooks/data_exploration.ipynb** → Explore dataset, visualize distributions, check data quality
+- **notebooks/colab_run.ipynb** → Google Colab notebook for loading the project from Google Drive and running training using GPU
+  
 ## 🌐 Streamlit Web App
 Run the interactive Streamlit application using:
 ```bash
@@ -142,11 +147,6 @@ streamlit run src/app.py
 1. Enter a sentence with grammatical errors
 2. Click **Correct**
 3. The corrected sentence is displayed instantly
-
-📊 Notebooks
-
-- **notebooks/data_exploration.ipynb** → Explore dataset, visualize distributions, check data quality
-- **notebooks/colab_run.ipynb** → Google Colab notebook for loading the project from Google Drive and running training using GPU
 
 ## ✨ Results
 ### Sample Prediction
