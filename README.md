@@ -53,4 +53,4 @@ cd project-root
 ```bash
 pip install -r requirements.txt
 ```
-**Main Libraries Used:** `torch` `transformers` `pandas` `matplotlib` `seaborn` `evaluate` `Levenshtein` `tqdm` `streamlit`
+**Main libraries used:** `torch` `transformers` `pandas` `matplotlib` `seaborn` `evaluate` `Levenshtein` `tqdm` `streamlit`
