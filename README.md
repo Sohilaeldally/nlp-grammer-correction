@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ## 📝 Dataset
 The dataset is located at:
-```
+```text
 data/Grammer Correction.csv
 ```
 It contains two main columns:
@@ -76,9 +76,9 @@ python src/train.py
 
 - Dataset split:
 
-80% training
+-- 80% training
 
-20% validation
+-- 20% validation
 
 - Trains for 25 epochs
 
