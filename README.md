@@ -48,7 +48,8 @@ project-root/
 ```bash
 git clone <your-repo-url>
 cd project-root
-
+```
 2. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
