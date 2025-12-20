@@ -97,7 +97,8 @@ preds = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 for src, pred in zip(sentences, preds):
     print(f"Input: {src}")
     print(f"Prediction: {pred}")```
-```bash
+
+```python
 Input: Him and me was going to the market yesterday.
 Prediction:  Him and me were going to the market yesterday.```
 
