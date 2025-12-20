@@ -106,12 +106,9 @@ streamlit run src/app.py
 | I has a pen.                                 | I have a pen.                              |
 |She don’t knows nothing about the project yet.| She doesn’t know anything about the project yet. |
 
-#### Validation Metrics 
+### Validation Metrics 
 
 **ROUGE-1**: 0.9508
-
-**ROUGE-2**: 0.8957 
-
+**ROUGE-2**: 0.8957
 **ROUGE-L**: 0.9422
-
 **Normalized Edit Distance**: 0.0611
