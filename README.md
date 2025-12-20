@@ -96,14 +96,16 @@ with torch.no_grad():
 preds = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 for src, pred in zip(sentences, preds):
     print(f"Input: {src}")
-    print(f"Prediction: {pred}")```
+    print(f"Prediction: {pred}")
+```
 
 ```bash
 Input: Him and me was going to the market yesterday.
-Prediction:  Him and me were going to the market yesterday.```
+Prediction:  Him and me were going to the market yesterday.
 
 Input: I has a pen.
 Prediction: I have a pen.
+```
 
 ✅ This shows how the base model performs before fine-tuning on your dataset. After fine-tuning (train.py), the model will better match your dataset’s style and grammar patterns. how to writhe this in readme
 
