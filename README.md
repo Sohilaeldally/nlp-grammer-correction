@@ -83,3 +83,5 @@ python src/train.py
 ```text
 models/best_model/
 ```
+### Evaluation metrics
+`ROUGE-1`, `ROUGE-2`, `ROUGE-L`, `Normalized Edit Distance (Levenshtein)`
