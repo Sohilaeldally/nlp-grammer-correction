@@ -107,9 +107,7 @@ Input: I has a pen.
 Prediction: I have a pen.
 ```
 
-✅ This shows how the base model performs before fine-tuning on your dataset. After fine-tuning (train.py), the model will better match your dataset’s style and grammar patterns. how to writhe this in readme
-
-## 🚀 Training
+✅ This shows how the base model performs **before fine-tuning** on your dataset. 
 
 To train the model, run:
 ```bash
