@@ -10,9 +10,6 @@ Includes training on a custom dataset, evaluation, and a **Streamlit web app** f
 
 
 <img width="1920" height="1080" alt="Screenshot (5809)" src="https://github.com/user-attachments/assets/e9c931fb-4cb6-4e56-9d09-11d366d569ac" />
-# English Grammar Correction Project
-
-A deep learning–based project to automatically correct English grammar using a T5 transformer model.
 
 ---
 
@@ -54,3 +51,13 @@ cd project-root
 pip install -r requirements.txt
 ```
 **Main libraries used:** `torch` `transformers` `pandas` `matplotlib` `seaborn` `evaluate` `Levenshtein` `tqdm` `streamlit`
+
+## 📝 Dataset
+The dataset is located at:
+```
+data/Grammer Correction.csv
+```
+It contains two main columns:
+- **Ungrammatical Statement** → Input sentences  
+- **Standard English** → Corrected sentences (labels)
+Preprocessing and tokenization for T5 are handled in `dataset.py.` 
