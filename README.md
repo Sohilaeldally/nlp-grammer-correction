@@ -44,12 +44,15 @@ project-root/
 ```
 ## ⚙️ Installation
 
-1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone <your-repo-url>
 cd project-root
 ```
-2. Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
+### Main Libraries Used
+
+`torch` `transformers` `pandas` `matplotlib` `seaborn` `evaluate` `Levenshtein` `tqdm` `streamlit`
