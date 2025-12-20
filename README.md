@@ -57,10 +57,16 @@ The dataset is located at:
 ```text
 data/Grammar Correction.csv
 ```
-It contains two main columns:
+It originally contains **three columns**:
 - **Ungrammatical Statement** → Input sentences  
 - **Standard English** → Corrected sentences (labels)
-  
+- **Error Type** → Type of grammatical error (e.g., Verb Tense Errors, Subject-Verb Agreement, Article Usage)
+
+
+⚠️ **Note:**  
+The **Error Type** column is **not used during training** and is dropped during preprocessing.  
+The model is trained only on sentence-level correction without explicit error-type supervision.
+
 Preprocessing and tokenization for T5 are handled in `dataset.py.` 
 
 ## 🚀 Training
