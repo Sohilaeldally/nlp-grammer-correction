@@ -118,17 +118,14 @@ streamlit run src/app.py
 
 - For faster training, use Google Colab:
 
-'''text
+```text
 notebooks/colab_run.ipynb
-'''
-
+```
 - Data exploration is available in:
-
-'''text
+```text
 notebooks/data_exploration.ipynb
-'''
-
-- You can adjust 'max_length' and 'batch_size' in 'train.py' depending on available GPU memory
+```
+- You can adjust `max_length` and `batch_size` in `train.py` depending on available GPU memory
 
 ## ⭐ Future Improvements
 
