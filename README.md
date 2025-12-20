@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ## 📝 Dataset
 The dataset is located at:
 ```text
-data/Grammer Correction.csv
+data/Grammar Correction.csv
 ```
 It contains two main columns:
 - **Ungrammatical Statement** → Input sentences  
@@ -72,13 +72,13 @@ python src/train.py
 
 ### Training details
 
-- Uses T5-base grammar correction model `(vennify/t5-base-grammar-correction)` as initialization
+- Uses **T5-base grammar correction model** `(vennify/t5-base-grammar-correction)` as initialization
 - Dataset split:
- - 80% training
- - 20% validation
-- Trains for 25 epochs
-- Early stopping with patience = 4
-- Saves the best model (based on ROUGE-L) to:
+  - 80% training
+  - 20% validation
+- Trains for **25 epochs**
+- **Early stopping** with patience = 4
+- Saves the **best model** (based on ROUGE-L) to:
 
 ```text
 models/best_model/
