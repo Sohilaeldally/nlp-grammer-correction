@@ -97,3 +97,18 @@ streamlit run src/app.py
 2. Click **Correct**
 3. The corrected sentence is displayed instantly
 
+## 📊 Results
+### Sample Prediction
+
+| Input Sentence                               | Corrected Sentence                          |
+|----------------------------------------------|--------------------------------------------|
+| He go to school yesterday.                   | He went to school yesterday.               |
+| I has a pen.                                 | I have a pen.                              |
+|She don’t knows nothing about the project yet.| She doesn’t know anything about the project yet. |
+
+#### Validation Metrics 
+
+**ROUGE-1**: 0.9508
+**ROUGE-2**: 0.8957
+**ROUGE-L**: 0.9422
+**Normalized Edit Distance**: 0.0611
