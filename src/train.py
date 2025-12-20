@@ -20,7 +20,7 @@ MODEL_DIR = os.path.join(BASE_DIR, "models", "best_model")
 
 
 # Path to the CSV relative to root
-data_path = os.path.join(BASE_DIR, "data", "Grammer Correction.csv")
+data_path = os.path.join(BASE_DIR, "data", "Grammar Correction.csv")
 df = pd.read_csv(data_path)
 df.drop(columns={'Serial Number','Error Type'},inplace=True)
 
