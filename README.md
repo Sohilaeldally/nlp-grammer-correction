@@ -73,17 +73,11 @@ python src/train.py
 ### Training details
 
 - Uses T5-base grammar correction model `(vennify/t5-base-grammar-correction)` as initialization
-
 - Dataset split:
-
--- 80% training
-
--- 20% validation
-
+ - 80% training
+ - 20% validation
 - Trains for 25 epochs
-
 - Early stopping with patience = 4
-
 - Saves the best model (based on ROUGE-L) to:
 
 ```text
