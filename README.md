@@ -10,3 +10,32 @@ Includes training on a custom dataset, evaluation, and a **Streamlit web app** f
 
 
 <img width="1920" height="1080" alt="Screenshot (5809)" src="https://github.com/user-attachments/assets/e9c931fb-4cb6-4e56-9d09-11d366d569ac" />
+# English Grammar Correction Project
+
+A deep learning–based project to automatically correct English grammar using a T5 transformer model.
+
+---
+
+## 📂 Project Structure
+
+```text
+project-root/
+│
+├── data/
+│   └── Grammer Correction.csv
+│
+├── models/
+│   └── best_model/
+│
+├── notebooks/
+│   ├── data_exploration.ipynb
+│   └── colab_run.ipynb
+│
+├── src/
+│   ├── app.py
+│   ├── train.py
+│   ├── dataset.py
+│   └── metrics.py
+│
+├── requirements.txt
+└── README.md
