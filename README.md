@@ -39,3 +39,16 @@ project-root/
 │
 ├── requirements.txt
 └── README.md
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd project-root
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
