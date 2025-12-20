@@ -41,7 +41,7 @@ project-root/
 └── README.md
 
 
-
+```
 ## ⚙️ Installation
 
 1. Clone the repository
