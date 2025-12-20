@@ -69,6 +69,43 @@ The model is trained only on sentence-level correction without explicit error-ty
 
 Preprocessing and tokenization for T5 are handled in `dataset.py.` 
 
+## 🧪 Testing / Inference (Before Fine-Tuning)
+
+You can try the pre-trained **T5 grammar correction model** before fine-tuning it on your dataset.
+
+```python
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import torch
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# Load pre-trained model
+model = AutoModelForSeq2SeqLM.from_pretrained("vennify/t5-base-grammar-correction").to(device)
+tokenizer = AutoTokenizer.from_pretrained("vennify/t5-base-grammar-correction")
+
+sentences = [
+    "Him and me was going to the market yesterday.",
+    "I has a pen."
+]
+
+inputs = tokenizer(sentences, return_tensors="pt", padding=True, truncation=True).to(device)
+
+with torch.no_grad():
+    outputs = model.generate(**inputs)
+
+preds = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+for src, pred in zip(sentences, preds):
+    print(f"Input: {src}")
+    print(f"Prediction: {pred}")```
+```bash
+Input: Him and me was going to the market yesterday.
+Prediction:  Him and me were going to the market yesterday.```
+
+Input: I has a pen.
+Prediction: I have a pen.
+
+✅ This shows how the base model performs before fine-tuning on your dataset. After fine-tuning (train.py), the model will better match your dataset’s style and grammar patterns. how to writhe this in readme
+
 ## 🚀 Training
 
 To train the model, run:
