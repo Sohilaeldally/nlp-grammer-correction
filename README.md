@@ -62,3 +62,30 @@ It contains two main columns:
 - **Standard English** → Corrected sentences (labels)
   
 Preprocessing and tokenization for T5 are handled in `dataset.py.` 
+
+## 🚀 Training
+
+To train the model, run:
+```bash
+python src/train.py
+```
+
+### Training details
+
+- Uses T5-base grammar correction model `(vennify/t5-base-grammar-correction)` as initialization
+
+- Dataset split:
+
+80% training
+
+20% validation
+
+- Trains for 25 epochs
+
+- Early stopping with patience = 4
+
+- Saves the best model (based on ROUGE-L) to:
+
+```text
+models/best_model/
+```
