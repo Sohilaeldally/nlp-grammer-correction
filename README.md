@@ -115,9 +115,7 @@ streamlit run src/app.py
 ## 🔧 Notes
 
 - The model supports **CPU** and **GPU**
-
 - For faster training, use Google Colab:
-
 ```text
 notebooks/colab_run.ipynb
 ```
@@ -130,9 +128,6 @@ notebooks/data_exploration.ipynb
 ## ⭐ Future Improvements
 
 - Fine-tune on a **larger dataset**
-
 - Add **multi-lingual grammar correction**
-
 - Enhance Streamlit UI with **batch sentence correction**
-
 - Deploy the app online (e.g., **Hugging Face Spaces** or **Render**)
