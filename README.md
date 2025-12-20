@@ -91,7 +91,7 @@ Run the interactive Streamlit application using:
 ```bash
 streamlit run src/app.py
 ```
-#### How it works
-1. Enter a sentence with grammatical errors
-2. Click **Correct**
-3. The corrected sentence is displayed instantly
+### How it works
+**1.** Enter a sentence with grammatical errors
+**2.** Click **Correct**
+**3.** The corrected sentence is displayed instantly
